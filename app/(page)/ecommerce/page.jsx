@@ -1,10 +1,13 @@
+import EcommerceCardSection from '@/components/ecommerce/EcommerceCardSection';
+import EcommerceHero from '@/components/ecommerce/EcommerceHero';
 import React from 'react';
 
 const page = () => {
   return (
-    <div>
-      <h1>ecommerce</h1>
-    </div>
+    <>
+      <EcommerceHero />
+      <EcommerceCardSection/>
+    </>
   );
 };
 
