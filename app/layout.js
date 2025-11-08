@@ -1,17 +1,25 @@
-import { Montserrat, Roboto,Roboto_Slab,Varela_Round,Sora,Poppins} from 'next/font/google'
+import {
+  Montserrat,
+  Roboto,
+  Roboto_Slab,
+  Varela_Round,
+  Sora,
+  Poppins,
+  Playfair_Display,
+} from 'next/font/google'
 import './globals.css'
 import Header from '@/components/header/Header'
 import Footer from '@/components/footer/Footer'
 
 // 🔹 Font Awesome config – একদম টপে রাখো
-import { config } from "@fortawesome/fontawesome-svg-core";
-import "@fortawesome/fontawesome-svg-core/styles.css";
-config.autoAddCss = false;
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+config.autoAddCss = false
 // 🔹 এখানেই শেষ, নিচের ফন্ট কোড যেমন ছিল রাখো
 
 const montserrat = Montserrat({
   // variable: "--font-geist-sans",
-  weight: ["400", "500", "600", "700"], // ✅ bold added
+  weight: ['400', '500', '600', '700'], // ✅ bold added
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-montserrat',
@@ -32,25 +40,32 @@ const robotoSlab = Roboto_Slab({
 })
 
 const varelaRound = Varela_Round({
-  weight: "400",              // ✅ prop নাম weight (একবচন)
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-varela-round",
-});
+  weight: '400', // ✅ prop নাম weight (একবচন)
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-varela-round',
+})
 
 const sora = Sora({
-  weight: "400",              // ✅ prop নাম weight (একবচন)
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-sora",
-});
+  weight: '400', // ✅ prop নাম weight (একবচন)
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-sora',
+})
 
 const popins = Poppins({
-   weight: ["100","200","300","400","500","600","700","800","900"],
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-popins",
-});
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-popins',
+})
+
+const Playfair = Playfair_Display({
+  weight: ['400', '500', '600', '700', '800', '900'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-playfair-display',
+})
 
 export const metadata = {
   title: 'Create Next App',
@@ -60,7 +75,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} ${roboto.variable} ${robotoSlab.variable} ${varelaRound.variable} ${sora.variable} ${popins.variable}`}>
+      <body
+        className={`${montserrat.variable} ${roboto.variable} ${robotoSlab.variable} ${varelaRound.variable} ${sora.variable} ${popins.variable} ${Playfair.variable}`}
+      >
         <Header />
         {children}
         <Footer />

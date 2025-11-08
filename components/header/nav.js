@@ -5,7 +5,7 @@ export const NAV = [
   { label: "ABOUT US", href: "/about-us" },
   {
     label: "SERVICES",
-    href: "https://deeproot.com.au/service/",
+    href: "/service/",
     hasCaret: true,
     children: [
       {

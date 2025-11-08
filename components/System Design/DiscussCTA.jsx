@@ -77,7 +77,6 @@ const DiscussCTA = () => {
         {/* purple overlay */}
         <div className="absolute inset-0 bg-[#533db5]/40 pointer-events-none" />
       </div>
-
     </section>
   );
 };
