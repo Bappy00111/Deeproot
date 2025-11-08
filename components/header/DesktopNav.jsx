@@ -47,7 +47,7 @@ function SubMenu({ items }) {
 export default function DesktopNav() {
   return (
     <nav
-      className="hidden lg:block text-[#26262c]  font-medium font-montserrat   "
+      className="hidden lg:block text-[#76787F]  font-bold font-montserrat   "
       aria-label="Primary"
       itemType="https://schema.org/SiteNavigationElement"
       itemScope
@@ -59,8 +59,8 @@ export default function DesktopNav() {
               <Link
                 href={item.href}
                 className={[
-                  "inline-flex items-center gap-2 text-[13px] tracking-wide uppercase   text-[#26262c]",
-                  // idx === 0 ? "font-semibold text-gray-700" : "text-yellow-400 hover:text-gray-900",
+                  "inline-flex items-center gap-2 text-[13px] tracking-wide uppercase   ",
+                  idx === 0 ? "hover:text-gray-900" : " hover:text-gray-900",
                 ].join(" ")}
                 aria-current={idx === 0 ? "page" : undefined}
               >

@@ -95,7 +95,7 @@ export default async function Header() {
         <div className="flex h-20 items-center">
           {/* LEFT GROUP */}
           <div className="flex flex-1 items-center gap-12">
-            <Link href="https://deeproot.com.au/" aria-label="Deeproot home" className="shrink-0">
+            <Link href="/" aria-label="Deeproot home" className="shrink-0">
               <Image
                 src="https://deeproot.com.au/wp-content/uploads/2025/02/transparent-logo-deeproot-120x44.png"
                 alt="Deeproot.com.au"

@@ -21,6 +21,7 @@
   --font-slab: var(--font-roboto-slab);
   --font-round: var(--font-varela-round);
   --font-sora: var(--font-sora);
+  --font-popins: var(--font-popins);
 }
 
 @media (prefers-color-scheme: dark) {
