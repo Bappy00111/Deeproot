@@ -7,7 +7,7 @@ import icon_tow from '../../public/image/asset 7.png'
 export default function WhyCustomersLoveUs() {
   return (
     <section className="w-full bg-[#f5f6f8]">
-      <div className="app-container flex-col items-center gap-10  py-16 md:grid md:grid-cols-2 md:items-center md:gap-16 lg:py-24">
+      <div className="app-container flex-col items-center gap-10  py-10 md:grid md:grid-cols-2 md:items-center md:gap-16 ">
         {/* LEFT SIDE */}
         <div className="w-full">
           {/* Badge */}

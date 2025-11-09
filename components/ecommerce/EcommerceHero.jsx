@@ -8,6 +8,8 @@ export default function EcommerceHero() {
       <section
   className="
     relative w-full
+    app-container
+    bg-fixed
     bg-gradient-to-b from-[#f5f5f5] to-[#e9eaec]
     bg-no-repeat
     bg-center

@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import bgImg from "../../public/image/asset 9.jpeg";
+import bgImg from "../../public/image/system-hero.jpeg";
 import topImg from "../../public/image/asset 1.png"; // আপনার illustration
 import Home from "./Home";
 
@@ -19,7 +19,7 @@ export default function ParallaxSection() {
           alt="Background"
           fill
           priority
-          className="object-cover -z-10"
+          className="object-cover -z-10 bg-fixed"
         />
 
         {/* Dark Overlay */}
