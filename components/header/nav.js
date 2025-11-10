@@ -32,7 +32,7 @@ export const NAV = [
             children: [
               {
                 label: "Digital Marketing Ranking",
-                href: "https://deeproot.com.au/service/digital-marketing/omnichannel-marketing/digital-marketing-ranking/",
+                href: "/digital-marketing/",
               },
               {
                 label: "Copywriting",
