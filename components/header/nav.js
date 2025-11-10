@@ -14,7 +14,7 @@ export const NAV = [
       },
       {
         label: "Digital Marketing",
-        href: "https://deeproot.com.au/service/digital-marketing/",
+        href: "",
         hasCaret: true,
         children: [
           {
@@ -23,7 +23,7 @@ export const NAV = [
           },
           {
             label: "Social Media Marketing",
-            href: "https://deeproot.com.au/service/digital-marketing/social-media-marketing/",
+            href: "/social-media-marketing/",
           },
           {
             label: "Omnichannel Marketing",
