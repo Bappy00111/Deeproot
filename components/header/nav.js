@@ -42,7 +42,7 @@ export const NAV = [
           },
           {
             label: "Google for Nonprofits",
-            href: "https://deeproot.com.au/service/digital-marketing/google-for-nonprofits/",
+            href: "/google-for-nonprofits/",
           },
         ],
       },
