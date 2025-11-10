@@ -47,7 +47,7 @@ function SubMenu({ items }) {
 export default function DesktopNav() {
   return (
     <nav
-      className="hidden lg:block text-[#76787F]  font-bold font-montserrat   "
+      className="hidden lg:block text-[#76787F]  font-semibold font-montserrat"
       aria-label="Primary"
       itemType="https://schema.org/SiteNavigationElement"
       itemScope

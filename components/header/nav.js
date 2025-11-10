@@ -36,7 +36,7 @@ export const NAV = [
               },
               {
                 label: "Copywriting",
-                href: "https://deeproot.com.au/service/digital-marketing/omnichannel-marketing/copywriting/",
+                href: "/copywriting/",
               },
             ],
           },

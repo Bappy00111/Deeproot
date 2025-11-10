@@ -86,7 +86,7 @@ import MobileNavItem from "./MobileNavItem";
 export default async function Header() {
   return (
     <header
-      className="relative z-50 bg-gray-100 border-b border-gray-200 "
+      className="relative z-50 bg-gray-50 border-b border-gray-200 "
       itemType="https://schema.org/WPHeader"
       itemScope
     >
