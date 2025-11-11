@@ -112,7 +112,7 @@ export default async function Header() {
           {/* RIGHT CTA */}
           <div className="hidden lg:block">
             <Link
-              href="https://deeproot.com.au/contact/"
+              href="/contact/"
               className="uppercase tracking-widest text-[13px] lg:text-[16px] font-montserrat font-bold  text-blue-700
                          rounded-sm border-2 border-white px-6 py-2 hover:bg-white hover:shadow
                          focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
