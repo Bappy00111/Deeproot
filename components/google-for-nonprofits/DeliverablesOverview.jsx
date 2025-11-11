@@ -6,7 +6,7 @@ import { faConnectdevelop } from "@fortawesome/free-brands-svg-icons";
 export default function DeliverablesOverview() {
   return (
     <section className="bg-white">
-      <div className="app-container  py-10 xl:py-16 ">
+      <div className="app-container  py-10 xl:py-20 2xl:py-40 ">
         <div className=" grid grid-cols-1  md:grid-cols-2 items-center lg:items-start  gap-10 lg:gap-16">
           {/* Left: Icon + Text */}
           <div className="flex flex-col md:flex-row items-start md:gap-8 xl:gap-12 order-2 md:order-1">

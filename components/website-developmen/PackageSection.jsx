@@ -83,7 +83,7 @@ const PackageSection = () => {
               Our Packages
             </h2> */}
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 xl:gap-20">
+            <div className="flex flex-col md:flex-row gap-6 lg:gap-8 xl:gap-12 items-start">
               {plans.map((plan, index) => {
                 // 1st < 2nd < 3rd
                 const heightClass =

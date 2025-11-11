@@ -9,7 +9,7 @@ const AboutUs = () => {
     "We have an international team of different professionals (including customer service, marketing, and engineers) across the five countries. We hope to help more Australian manufacturers to carry forward overseas. Selling more is the core belief and mission of Deeproot!",
   ];
   return (
-    <div className=' py-5 bg-gray-100'>
+    <div className=' py-5 bg-gray-50'>
       <AboutHeader/>
       <MarketVisibilityFeature
         heading="Market Visibility"

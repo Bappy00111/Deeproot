@@ -10,7 +10,7 @@ const  AboutHeader = () => {
 
       {/* Card Section */}
       <section className="">
-        <div className=" bg-white shadow shadow-card z-10">
+        <div className=" bg-white shadow-xl z-10 xl:my-10">
           <div className="px-6 py-12 md:px-16 md:py-16 text-center">
             <h2 className="text-3xl md:text-6xl xl:text-[80px] font-medium text-gray-900 leading-tight  tracking-wide">
               Break Cultural Barriers

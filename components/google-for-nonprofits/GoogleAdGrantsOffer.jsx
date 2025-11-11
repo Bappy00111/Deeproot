@@ -8,7 +8,7 @@ import freeAdsImage from "../../public/image/google-for-nonprofits/asset 4.png";
 function GoogleAdGrantsOffer() {
   return (
     <section className="w-full bg-[#f5f6f8]">
-      <div className="app-container py-12 md:py-16  font-montserrat">
+      <div className="app-container pt-4 lg:pt-16  font-montserrat">
         {/* TOP ROW */}
         <div className="flex flex-col md:flex-row items-center md:items-stretch gap-10 md:gap-12">
           {/* LEFT: দুইটা ইমেজ */}

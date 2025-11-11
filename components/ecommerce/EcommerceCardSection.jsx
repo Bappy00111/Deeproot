@@ -7,7 +7,7 @@ import { ecommerceData } from './ecommerceData';
 
 const EcommerceCardSection = () => {
   return (
-     <section className="w-full bg-[#f5f5f5] pt-10 pb-0.5">
+     <section className="w-full bg-gray-50 pt-10 pb-0.5">
       <div className="app-container">
         {ecommerceData.map((service, index) => {
           const reverse = index % 2 === 1; // odd index -> image right, text left

@@ -92,7 +92,7 @@ export default async function Header() {
     >
       {/* এই wrapper-টা relative; নিচের absolute ড্রপডাউন header-এর একদম bottom-এ বসবে */}
       <div className="app-container">
-        <div className="flex h-20 items-center">
+        <div className="flex h-[88px] items-center">
           {/* LEFT GROUP */}
           <div className="flex flex-1 items-center gap-12">
             <Link href="/" aria-label="Deeproot home" className="shrink-0">

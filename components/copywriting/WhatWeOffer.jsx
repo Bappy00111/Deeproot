@@ -100,12 +100,12 @@ export default function WhatWeOffer() {
           {/* LEFT: ITEMS */}
           <div className="w-full lg:w-1/2">
             {/* Mobile: single column + centered; md+: 2 columns, left aligned */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-8 sm:gap-y-10 gap-x-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-8 sm:gap-y-10 xl:gap-y-24 gap-x-10">
               {items.map(({ icon: Icon, label }) => (
                 <div
                   key={label}
                   className="
-                    flex flex-col items-center sm:items-start
+                    flex flex-col md:flex-row items-center
                     text-center sm:text-left
                     gap-3
                   "
@@ -125,7 +125,7 @@ export default function WhatWeOffer() {
                   >
                     <Icon />
                   </div>
-                  <p className="text-[#4C3DA8] font-semibold text-lg sm:text-xl leading-snug">
+                  <p className="text-[#4C3DA8] font-semibold text-lg sm:text-xl xl:text-[25px] leading-snug font-roboto ">
                     {label}
                   </p>
                 </div>
@@ -141,7 +141,7 @@ export default function WhatWeOffer() {
                 alt="Person working on laptop"
                 width={600}
                 height={750}
-                className="w-full h-[400px] xl:h-auto object-cover "
+                className="w-full h-[400px] xl:h-[700px] object-cover "
               />
               <div className="mt-8 sm:mt-10 text-center">
                 <p className="text-lg sm:text-xl font-semibold text-[#4C3DA8]">

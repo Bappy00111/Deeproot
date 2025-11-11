@@ -13,8 +13,8 @@ export default function MarketVisibilityFeature({
   return (
     <section className={`w-full ${className}`}>
       {/* subtle top gradient like the screenshot */}
-      <div className="bg-gradient-to-b from-gray-100 to-transparent">
-        <div className="app-container py-8">
+      <div className="bg-gray-50 ">
+        <div className="app-container ">
           <div
             className={`grid items-center gap-8 md:gap-12 lg:gap-16 md:grid-cols-12`}
           >

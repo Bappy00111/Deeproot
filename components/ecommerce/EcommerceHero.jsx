@@ -3,10 +3,10 @@
 
 export default function EcommerceHero() {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-50">
       {/* HERO */}
       <section
-  className="
+        className="
     relative w-full
     app-container
     bg-fixed
@@ -19,17 +19,17 @@ export default function EcommerceHero() {
     lg:bg-[length:65%_auto]       /* lg */
     xl:bg-[length:55%_auto]       /* xl */
   "
-  style={{
-    // ফাইল থাকলে: public/image/asset 4.png
-    backgroundImage: "url('/image/asset%204.png')",
-  }}
->
-  {/* চাইলে overlay */}
-  <div className="pointer-events-none absolute inset-0 bg-black/0" />
+        style={{
+          // ফাইল থাকলে: public/image/asset 4.png
+          backgroundImage: "url('/image/asset%204.png')",
+        }}
+      >
+        {/* চাইলে overlay */}
+        <div className="pointer-events-none absolute inset-0 bg-black/0" />
 
-  {/* content wrapper */}
-  <div
-    className="
+        {/* content wrapper */}
+        <div
+          className="
       app-container
       relative
       flex
@@ -39,9 +39,9 @@ export default function EcommerceHero() {
       py-20
       md:py-16
     "
-  >
-    <div
-      className="
+        >
+          <div
+            className="
         w-full
         md:w-1/2
         flex
@@ -50,9 +50,9 @@ export default function EcommerceHero() {
         items-center md:items-start
         font-roboto
       "
-    >
-      <h1
-        className="
+          >
+            <h1
+              className="
           font-semibold leading-none text-[#22252f]
           text-[32px]
           sm:text-[40px]
@@ -61,18 +61,18 @@ export default function EcommerceHero() {
           xl:text-[64px]
           text-center md:text-left
         "
-      >
-        Ecommerce
-        <br />
-        Operations
-        <br />
-        Management
-        <br />
-        Service
-      </h1>
-    </div>
-  </div>
-</section>
+            >
+              Ecommerce
+              <br />
+              Operations
+              <br />
+              Management
+              <br />
+              Service
+            </h1>
+          </div>
+        </div>
+      </section>
 
 
 

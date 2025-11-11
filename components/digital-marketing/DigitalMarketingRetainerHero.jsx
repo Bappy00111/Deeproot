@@ -1,34 +1,4 @@
-// import Image from "next/image";
-// import bg from '../..//public/image/digetalMarketing/asset 1.png'
 
-// export default function DigitalMarketingRetainerHero() {
-//   return (
-//     <main className="min-h-screen bg-[#f5f6f8] flex items-center">
-//       <section className="w-full app-container
-//                           flex flex-col lg:flex-row items-center justify-between gap-10">
-//         {/* LEFT: Text */}
-//         <div className="flex-1">
-//           <h1 className="text-3xl sm:text-4xl lg:text-[40px] font-medium leading-tight text-black font-montserrat">
-//             Digital Marketing Retainer
-//             <br />
-//             Services
-//           </h1>
-//         </div>
-
-//         {/* RIGHT: Image */}
-//         <div className="flex-1 flex justify-center lg:justify-end">
-//           <Image
-//             src='https://deeproot.com.au/wp-content/uploads/2020/05/img1-1-768x777.png' // public ফোল্ডারে রাখো
-//             alt="Digital marketing illustration"
-//             width={700}
-//             height={700}
-//             className=" xl:h-[550px] xl:w-[550px]"
-//           />
-//         </div>
-//       </section>
-//     </main>
-//   );
-// }
 
 
 import Image from "next/image";

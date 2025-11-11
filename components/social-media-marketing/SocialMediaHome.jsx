@@ -2,7 +2,7 @@ import React from 'react';
 
 const SocialMediaHome = () => {
   return (
-    <main className=" bg-[#f5f6f8] flex items-center justify-center">
+    <main className=" bg-gray-50 flex items-center justify-center xl:pb-20">
       <section className="w-full app-container md:flex items-center gap-5  py-10">
         {/* Left Text */}
         <h1 className="flex-1 text-[45px] xl:text-[50px] font-medium text-black leading-tight font-montserrat pb-4 md:pb-0">

@@ -22,7 +22,7 @@ const HeroSection = () => {
 
         {/* Center Content */}
         <div className="absolute inset-0 flex items-center justify-center">
-          <h1 className="text-white text-6xl xl:text-7xl font-bold text-center px-4 leading-snug md:tracking-wide font-roboto">
+          <h1 className="text-white text-6xl xl:text-[70px] font-semibold text-center px-4 leading-snug md:tracking-wide font-roboto">
             Make your business visible
           </h1>
         </div>
@@ -32,9 +32,9 @@ const HeroSection = () => {
       <section className="relative bg-[#504A97] text-white px-8 md:px-20  py-12 flex flex-col md:flex-row justify-around items-center gap-5">
 
         {/* Triangle Shape */}
-        <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 w-0 h-0
+        <div className="absolute -top-0 left-1/2 transform -translate-x-1/2 w-0 h-0
                         border-l-[20px] border-r-[20px] border-b-[20px]
-                        border-transparent border-b-[#504A97]">
+                        border-transparent border-b-gray-950 rotate-180">
         </div>
 
         {/* Left Text */}
